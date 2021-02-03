@@ -11,6 +11,7 @@ const tutorials = [
   'what is JSONP?'
 ];
 
+<<<<<<< HEAD
 function titleCased() {
   return tutorials.map(function (tutorial) {
     tutorial = tutorial.split(' ');
@@ -20,3 +21,6 @@ function titleCased() {
     return tutorial.join(' ');
   });
 }
+=======
+const titleCased = tutorials.map(tut => titleCase(tut))
+>>>>>>> cc5a72b3a66544789b9c1763214471f2ecc58b58
